@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="main-container">
+    <DailyStockReportView />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import DailyStockReportView from '@/components/Scenario/DailyStockReportView.vue';
 
 export default defineComponent({
   name: 'Home',
   components: {
-    HelloWorld,
+    DailyStockReportView,
   },
 });
 </script>
+
+<style scoped>
+.main-container {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+</style>
