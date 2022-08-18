@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "eslint.workingDirectories": [
+        "../src"
+    ],
+    "eslint.options": {
+        "overrideConfigFile": "../eslintrc.js"
+    },
+    "eslint.validate": [
+        "javascript",
+        "vue"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.minimap.enabled": false,
+}

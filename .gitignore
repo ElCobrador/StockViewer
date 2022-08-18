@@ -15,7 +15,7 @@ pnpm-debug.log*
 
 # Editor directories and files
 .idea
-.vscode
+# .vscode // fixed the formatting problems using the .vscode workspace settings.
 *.suo
 *.ntvs*
 *.njsproj
